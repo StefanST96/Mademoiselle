@@ -1,0 +1,44 @@
+header{
+    .navbar-brand{
+        max-width: 198.67px;
+        padding: 0;
+        img{
+            display: block;
+        }
+    }
+    .navbar-toggler{
+        border: none;
+        outline: none !important;
+        box-shadow: none !important;
+        span{
+            width: 3rem;
+            height: 3px;
+            background-color: $primary;
+            margin-bottom: 5px;
+            display: block;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .navbar-nav{
+        .nav-item{
+            @media(min-width:992px){
+                    margin-left: 6.8rem;
+                }
+            .nav-link{
+                font-size: 1.4rem;
+                font-weight: 400;
+                line-height: 100%;
+                padding: 10px 0;
+                border-bottom: 1px solid transparent;
+                @media(min-width:992px){
+                    padding: 4px 0;
+                }
+                &:hover{
+                    border-bottom: 1px solid #ECD9D9;
+                }
+            }
+        }
+    }
+}

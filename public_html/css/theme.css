@@ -4039,8 +4039,8 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-color: #000;
+  --bs-navbar-hover-color: #000;
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-brand-padding-y: 0.2rem;
@@ -12186,6 +12186,49 @@ h2, .h2 {
 
 h4, .h4 {
   line-height: 2.4rem;
+}
+
+header .navbar-brand {
+  max-width: 198.67px;
+  padding: 0;
+}
+header .navbar-brand img {
+  display: block;
+}
+header .navbar-toggler {
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+header .navbar-toggler span {
+  width: 3rem;
+  height: 3px;
+  background-color: #ECD9D9;
+  margin-bottom: 5px;
+  display: block;
+}
+header .navbar-toggler span:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  header .navbar-nav .nav-item {
+    margin-left: 6.8rem;
+  }
+}
+header .navbar-nav .nav-item .nav-link {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid transparent;
+}
+@media (min-width: 992px) {
+  header .navbar-nav .nav-item .nav-link {
+    padding: 4px 0;
+  }
+}
+header .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 1px solid #ECD9D9;
 }
 
 /*# sourceMappingURL=theme.css.map */
