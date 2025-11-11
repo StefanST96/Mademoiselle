@@ -1,0 +1,25 @@
+.btn {
+    border: 1px solid #000;
+    border-radius: 0;
+    background: transparent;
+    color: #000;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 1.6rem 3rem;
+    transition: all 0.3s ease;
+    letter-spacing: 0.1em;
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    &.white {
+        border: 1px solid #fff;
+        color: #fff;
+        &:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}

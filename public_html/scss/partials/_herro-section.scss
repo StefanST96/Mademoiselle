@@ -1,6 +1,6 @@
 .herro-section{
     padding: 25.2rem 0 25.2rem;
-    background-position: center bottom;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: 1440px;
     overflow: hidden;
@@ -10,5 +10,8 @@
     }
     &.page{
     padding: 28.6rem 0 28.6rem;
+    }
+    &.error{
+    padding: 19.5rem 0;
 }
 }

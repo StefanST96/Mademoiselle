@@ -12240,7 +12240,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 
 .herro-section {
   padding: 25.2rem 0 25.2rem;
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: 1440px;
   overflow: hidden;
@@ -12250,6 +12250,9 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 }
 .herro-section.page {
   padding: 28.6rem 0 28.6rem;
+}
+.herro-section.error {
+  padding: 19.5rem 0;
 }
 
 .blog-section {
@@ -12346,23 +12349,6 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
   color: #111;
   padding: 0 1.3rem 0 0;
 }
-.service-section .service-item .btn {
-  border: 1px solid #000;
-  border-radius: 0;
-  background: transparent;
-  color: #000;
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  padding: 1.6rem 3rem;
-  transition: all 0.3s ease;
-  letter-spacing: 0.1em;
-}
-.service-section .service-item .btn:hover {
-  background-color: #000;
-  color: #fff;
-}
 .service-section .service-item .service-item-image {
   width: 100%;
   height: 100%;
@@ -12406,7 +12392,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 }
 
 .team-section {
-  padding: 8.1rem 0 10.4rem;
+  padding: 8.1rem 0 5.4rem;
 }
 .team-section .team-section-title {
   padding-bottom: 2.8rem;
@@ -12472,7 +12458,7 @@ header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-
 }
 
 footer {
-  padding: 0 0 3.8rem;
+  padding: 5rem 0 3.8rem;
 }
 footer .copyright {
   color: #586C88;
@@ -12505,6 +12491,32 @@ footer .social .social-icon {
 }
 .single-service-section .single-service-data .single-service-data-description {
   line-height: 2.8rem;
+}
+
+.btn {
+  border: 1px solid #000;
+  border-radius: 0;
+  background: transparent;
+  color: #000;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 1.6rem 3rem;
+  transition: all 0.3s ease;
+  letter-spacing: 0.1em;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.btn.white {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn.white:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /*# sourceMappingURL=theme.css.map */
