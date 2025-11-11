@@ -12519,4 +12519,38 @@ footer .social .social-icon {
   color: #000;
 }
 
+.info-section {
+  padding: 7.4rem 0;
+  background-color: #ECD9D9;
+  margin-bottom: 5.5rem;
+}
+.info-section .info-data p {
+  margin: 1.9rem 0 0;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+}
+.info-section .info-data a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-section {
+  padding: 10.8rem 0 10.1rem;
+}
+.contact-section .contact-form-section-title {
+  font-size: 3rem;
+  letter-spacing: 0.1em;
+}
+.contact-section .contact-form .form-group {
+  margin-bottom: 2.2rem;
+}
+.contact-section .contact-form .form-group .form-control {
+  line-height: 4rem;
+  background-color: #F5F5F5;
+}
+.contact-section iframe {
+  width: 100%;
+  height: 509px;
+}
+
 /*# sourceMappingURL=theme.css.map */
