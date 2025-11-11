@@ -12243,9 +12243,12 @@ header .navbar-nav .nav-item .nav-link:hover {
 .herro-section .herro-content-text {
   color: #FFF;
 }
+.herro-section.page {
+  padding: 28.6rem 0 28.6rem;
+}
 
 .blog-section {
-  padding: 6.7rem 0 9.7rem;
+  padding: 6.7rem 0 0;
   position: relative;
 }
 .blog-section .blog-section-title {
@@ -12302,7 +12305,7 @@ header .navbar-nav .nav-item .nav-link:hover {
 }
 
 .service-section {
-  padding: 0 0 12.7rem;
+  padding: 9.7rem 0 12.7rem;
 }
 .service-section .service-section-title {
   padding-bottom: 2.8rem;
