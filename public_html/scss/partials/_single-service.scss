@@ -1,0 +1,24 @@
+.single-service-section{
+    padding: 4.9rem 0 9.2rem;
+    
+    .row {
+            --bs-gutter-x: 0;
+            --bs-gutter-y: 0;
+            margin: 0;
+        }
+    .single-service-image{
+        width: 100%;
+        display: block;
+    }
+    .single-service-data{
+       
+        .single-service-data-title{
+            font-size: 4.4rem;
+            margin: 1.4rem 0 4.6rem 0;
+        }
+        .single-service-data-description{
+            line-height: 2.8rem;
+        }
+    }
+}
+

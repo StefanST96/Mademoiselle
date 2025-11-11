@@ -12180,6 +12180,11 @@ h1, .h1 {
   font-size: 6rem;
 }
 
+.lato {
+  font-family: "Lato", sans-serif;
+  line-height: 5.3rem;
+}
+
 h2, .h2 {
   font-family: "Playfair Display", sans-serif;
   line-height: 4.6rem;
@@ -12229,7 +12234,7 @@ header .navbar-nav .nav-item .nav-link {
     padding: 4px 0;
   }
 }
-header .navbar-nav .nav-item .nav-link:hover {
+header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-link.active {
   border-bottom: 1px solid #ECD9D9;
 }
 
@@ -12480,6 +12485,26 @@ footer .social .social-icon {
   text-decoration: none;
   font-size: 2rem;
   margin: 0 1.6rem;
+}
+
+.single-service-section {
+  padding: 4.9rem 0 9.2rem;
+}
+.single-service-section .row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin: 0;
+}
+.single-service-section .single-service-image {
+  width: 100%;
+  display: block;
+}
+.single-service-section .single-service-data .single-service-data-title {
+  font-size: 4.4rem;
+  margin: 1.4rem 0 4.6rem 0;
+}
+.single-service-section .single-service-data .single-service-data-description {
+  line-height: 2.8rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
